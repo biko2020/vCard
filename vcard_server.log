@@ -1,0 +1,455 @@
+2025-01-28 19:28:32,081 - INFO - [app.py:24] - Current User: pc
+2025-01-28 19:28:32,082 - INFO - [app.py:25] - Current Working Directory: /var/www/html/vCard
+2025-01-28 19:28:32,082 - INFO - [app.py:26] - Process User ID: 1000
+2025-01-28 19:28:32,082 - INFO - [app.py:27] - Process Group ID: 1000
+2025-01-28 19:28:32,082 - INFO - [app.py:41] - Attempting to create vCard storage directory: /var/www/html/vCard/vcards
+2025-01-28 19:28:32,083 - ERROR - [app.py:51] - Could not change vcards directory permissions: [Errno 1] Operation not permitted: '/var/www/html/vCard/vcards'
+2025-01-28 19:28:32,083 - ERROR - [app.py:52] - Current directory permissions: 0o777
+2025-01-28 19:28:32,095 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.98:8000
+2025-01-28 19:28:32,095 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-01-28 19:28:32,096 - INFO - [_internal.py:97] -  * Restarting with stat
+2025-01-28 19:28:32,232 - INFO - [app.py:24] - Current User: pc
+2025-01-28 19:28:32,232 - INFO - [app.py:25] - Current Working Directory: /var/www/html/vCard
+2025-01-28 19:28:32,233 - INFO - [app.py:26] - Process User ID: 1000
+2025-01-28 19:28:32,233 - INFO - [app.py:27] - Process Group ID: 1000
+2025-01-28 19:28:32,234 - INFO - [app.py:41] - Attempting to create vCard storage directory: /var/www/html/vCard/vcards
+2025-01-28 19:28:32,234 - ERROR - [app.py:51] - Could not change vcards directory permissions: [Errno 1] Operation not permitted: '/var/www/html/vCard/vcards'
+2025-01-28 19:28:32,234 - ERROR - [app.py:52] - Current directory permissions: 0o777
+2025-01-28 19:28:32,246 - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-01-28 19:28:32,246 - INFO - [_internal.py:97] -  * Debugger PIN: 595-302-627
+2025-01-28 19:28:33,250 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-28 19:28:33,284 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-28 19:28:33,293 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-28 19:28:33,298 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-28 19:28:33,310 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-28 19:28:33,434 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOFQx.vcf
+2025-01-28 19:28:33,434 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOFQx
+2025-01-28 19:28:33,435 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:28:33] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:03,570 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-28 19:29:03,594 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-28 19:29:03,596 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-28 19:29:03,602 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-28 19:29:03,618 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-28 19:29:03,721 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOFQx.vcf
+2025-01-28 19:29:03,721 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOFQx
+2025-01-28 19:29:03,722 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:03] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:05,824 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:05,825 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:05,825 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:05,857 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:05,857 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:05,858 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:05,887 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:05,887 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:05,888 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:09,417 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:09,417 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:09,418 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:09] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:12,255 - INFO - [app.py:166] - Attempting to serve vCard file: QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:12,257 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:12] "GET /vcards/QnJhaGltIEFpdG91.vcf HTTP/1.1" 200 -
+2025-01-28 19:29:44,806 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:44,806 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:44,806 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:44,942 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:44,942 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:44,943 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,071 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,071 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,072 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,194 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,195 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,195 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,699 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,700 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,700 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,731 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,731 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,731 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,768 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,770 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,771 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,806 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,807 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,808 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,845 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,845 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,846 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,885 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,886 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,887 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,943 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,944 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,944 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:45,981 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:45,981 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:45,981 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,009 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,009 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,010 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,046 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,046 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,047 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,160 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,160 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,160 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,314 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,315 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,315 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,351 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,351 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,351 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,559 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,559 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,560 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,645 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,646 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,646 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,759 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,759 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,760 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:46,872 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:46,872 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:46,872 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:29:47,024 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:29:47,025 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:29:47,025 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:29:47] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,125 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,125 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,126 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,589 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,590 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,590 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,620 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,620 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,621 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,655 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,655 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,656 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,687 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,687 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,688 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,715 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,715 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,716 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,750 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,750 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,751 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,785 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,786 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,786 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,819 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,819 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,820 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,845 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,845 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,846 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,873 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,873 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,874 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,897 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,897 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,898 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,925 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,925 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,926 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,956 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,957 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,957 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:19,986 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:19,986 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:19,986 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,017 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,017 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,018 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,048 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,048 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,049 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,076 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,077 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,077 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,117 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,117 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,118 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,140 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,140 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,141 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,178 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,178 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,179 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:20,217 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:20,219 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:20,220 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:20] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:21,521 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:21,521 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:21,522 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:21] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:21,652 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:21,652 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:21,652 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:21] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:21,772 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:21,772 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:21,773 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:21] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:22,496 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:22,497 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:22,498 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:22,733 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:22,734 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:22,734 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:22,883 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:22,884 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:22,885 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:23,063 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:23,064 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:23,064 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:23] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:23,151 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:23,151 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:23,152 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:23] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:23,661 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:23,661 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:23,662 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:23] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:24,047 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:24,047 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:24,048 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:24] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:24,242 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:24,243 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:24,243 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:24] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:24,425 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:24,425 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:24,427 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:24] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:24,469 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:24,469 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:24,470 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:24] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:25,044 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:25,045 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:25,045 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:25] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:25,256 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:25,256 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:25,257 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:25] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:25,525 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:25,526 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:25,527 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:25] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:25,807 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:25,807 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:25,808 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:25] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:26,057 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:26,057 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:26,058 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:26] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:26,771 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:26,771 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:26,772 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:26] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:27,217 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:27,217 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:27,218 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:27,352 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:27,352 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:27,352 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:27,532 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:27,532 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:27,532 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:27,653 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:27,653 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:27,654 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:27,841 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:27,841 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:27,842 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:28,154 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:28,154 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:28,154 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:28,512 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:28,513 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:28,513 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:28,797 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:28,798 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:28,798 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:29,023 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:29,023 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:29,024 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:29,264 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:29,264 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:29,265 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:29,670 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:29,670 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:29,671 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:29,878 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:29,878 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:29,879 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:30,377 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:30,377 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:30,378 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:30,665 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:30,665 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:30,666 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:30,766 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:30,766 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:30,767 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:30,966 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:30,966 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:30,966 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:31,320 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:31,321 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:31,321 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:31] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:31,503 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:31,503 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:31,504 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:31] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:32,045 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:32,047 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:32,048 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:32,363 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:32,363 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:32,364 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:32,627 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:32,627 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:32,628 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:32,878 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:32,879 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:32,880 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:32,943 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:32,943 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:32,943 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:33,081 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:33,081 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:33,082 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:33] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:35,431 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:35,431 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:35,432 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:35] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:35,687 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:35,687 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:35,688 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:35] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:35,941 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:35,941 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:35,941 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:35] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:36,976 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:36,977 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:36,978 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:36] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:37,197 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:37,197 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:37,198 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:37,415 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:37,416 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:37,416 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:38,533 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:38,533 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:38,534 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:38] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:38,758 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:38,758 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:38,758 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:38] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:39,703 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:39,704 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:39,704 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:39] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:39,882 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:39,882 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:39,882 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:39] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:40,000 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:40,000 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:40,000 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:40] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:40,124 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:40,124 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:40,124 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:40] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:40,941 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:40,941 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:40,942 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:40] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:41,352 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:41,353 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:41,353 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:41] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:42,198 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:42,198 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:42,199 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:42] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:42,469 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:42,469 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:42,470 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:42] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:43,495 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:43,495 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:43,496 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:43] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:43,963 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:43,963 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:43,964 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:43] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:44,106 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:44,107 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:44,107 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:44,235 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:44,235 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:44,236 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:30:44,505 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:30:44,506 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:30:44,506 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:30:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:31:23,567 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:31:23,567 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:31:23,567 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:31:23] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:31:24,064 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:31:24,064 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:31:24,064 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:31:24] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:31:51,274 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:31:51,274 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:31:51,275 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:31:51] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:07,169 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-28 19:32:07,169 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-28 19:32:07,169 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:07] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:45,070 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-28 19:32:45,099 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-28 19:32:45,107 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-28 19:32:45,109 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-28 19:32:45,192 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOFQx.vcf
+2025-01-28 19:32:45,192 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOFQx
+2025-01-28 19:32:45,193 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:45,206 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:45] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-28 19:32:51,882 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:51,882 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:51,883 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:51] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:51,910 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:51,910 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:51,910 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:51] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:53,875 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:53,875 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:53,875 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:53] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:55,551 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:55,551 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:55,552 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:55] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:55,752 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:55,752 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:55,753 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:55] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:56,029 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:56,030 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:56,030 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:56] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:56,802 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:56,802 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:56,803 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:56] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:57,661 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:57,661 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:57,662 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:57] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:57,973 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:57,973 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:57,974 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:57] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:32:58,657 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:32:58,658 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:32:58,658 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:32:58] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:03,716 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:03,716 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:03,716 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:03] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:05,974 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:05,975 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:05,975 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:06,234 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:06,234 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:06,235 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:06] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:06,424 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:06,424 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:06,425 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:06] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:06,591 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:06,591 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:06,592 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:06] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:06,780 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:06,780 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:06,781 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:06] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:07,032 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:07,032 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:07,032 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:07] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:07,107 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:07,108 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:07,108 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:07] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:07,405 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:07,406 - INFO - [app.py:146] - Generated new vCard: QkVMQUZLSUggU2Fs
+2025-01-28 19:33:07,406 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:07] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-28 19:33:10,691 - INFO - [app.py:166] - Attempting to serve vCard file: QkVMQUZLSUggU2Fs.vcf
+2025-01-28 19:33:10,692 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:10] "GET /vcards/QkVMQUZLSUggU2Fs.vcf HTTP/1.1" 200 -

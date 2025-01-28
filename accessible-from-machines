@@ -1,0 +1,8 @@
+The application is now running on http://127.0.0.1:8000. However, to make it accessible from other machines, you'll want to bind it to all interfaces:
+
+python3 app.py --host=0.0.0.0
+
+Or for production deployment:
+
+gunicorn --bind 0.0.0.0:8000 app:app
+

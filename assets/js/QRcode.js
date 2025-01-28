@@ -56,7 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Use current timestamp and a hash of user data to create a unique link
         const timestamp = new Date().toISOString();
         const uniqueData = `${nameInput.value}${phoneInput.value}${emailInput.value}${timestamp}`;
-        const uniqueHash = btoa(uniqueData).replace(/[^a-zA-Z0-9]/g, '').substring(0, 16);
+        
+        // Create URL-safe Base64 encoding
+        const uniqueHash = btoa(uniqueData)
+            .replace(/\+/g, '-')   // Replace + with -
+            .replace(/\//g, '_')   // Replace / with _
+            .replace(/=+$/, '')    // Remove trailing =
+            .substring(0, 16);     // Limit length
 
         // Construct a unique reference link
         const baseUrl = window.location.origin;
@@ -86,15 +92,25 @@ END:VCARD`;
         qr.make();
         qrCodeContainer.innerHTML = qr.createImgTag(5);
 
+        // Save vCard to server
+        saveVCardToServer(vCardData, uniqueHash);
+
         // Optional: Display the reference link
-        const referenceLinkElement = document.getElementById('reference-link') ||
-            document.createElement('div');
-        referenceLinkElement.id = 'reference-link';
-        referenceLinkElement.innerHTML = `
+        const referenceLinkElement = document.getElementById('reference-link');
+        if (referenceLinkElement) {
+            referenceLinkElement.remove();
+        }
+        const newReferenceLinkElement = document.createElement('div');
+        newReferenceLinkElement.id = 'reference-link';
+        
+        // Construct a fully qualified URL
+        const fullReferenceLink = `http://localhost:8000/vcards/${uniqueHash}.vcf`;
+        
+        newReferenceLinkElement.innerHTML = `
             <strong>Unique Reference Link:</strong> 
-            <a href="${referenceLink}" target="_blank">${referenceLink}</a>
+            <a href="${fullReferenceLink}" target="_blank">${fullReferenceLink}</a>
         `;
-        qrCodeContainer.appendChild(referenceLinkElement);
+        qrCodeContainer.appendChild(newReferenceLinkElement);
     }
 
     // Toggle between Preview and QR Code
@@ -154,19 +170,82 @@ END:VCARD`;
             qr.make();
             qrCodeContainer.innerHTML = qr.createImgTag(5);
 
+            // Save vCard to server
+            saveVCardToServer(vCardData, uniqueHash);
+
             // Optional: Display the reference link
-            const referenceLinkElement = document.getElementById('reference-link') ||
-                document.createElement('div');
-            referenceLinkElement.id = 'reference-link';
-            referenceLinkElement.innerHTML = `
+            const referenceLinkElement = document.getElementById('reference-link');
+            if (referenceLinkElement) {
+                referenceLinkElement.remove();
+            }
+            const newReferenceLinkElement = document.createElement('div');
+            newReferenceLinkElement.id = 'reference-link';
+            
+            // Construct a fully qualified URL
+            const fullReferenceLink = `http://localhost:8000/vcards/${uniqueHash}.vcf`;
+            
+            newReferenceLinkElement.innerHTML = `
                 <strong>Unique Reference Link:</strong> 
-                <a href="${referenceLink}" target="_blank">${referenceLink}</a>
+                <a href="${fullReferenceLink}" target="_blank">${fullReferenceLink}</a>
             `;
-            qrCodeContainer.appendChild(referenceLinkElement);
+            qrCodeContainer.appendChild(newReferenceLinkElement);
         };
         reader.readAsDataURL(profileFile);
     });
 
-    
-
+    function saveVCardToServer(vCardData, uniqueHash) {
+        fetch('/generate_vcard', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                vCardData: vCardData,
+                hash: uniqueHash
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Remove any existing reference link or status elements
+            const existingStatusElements = [
+                document.getElementById('vcard-status'),
+                document.getElementById('reference-link')
+            ];
+            existingStatusElements.forEach(el => {
+                if (el) el.remove();
+            });
+            
+            // Construct a fully qualified URL
+            const fullReferenceLink = `http://localhost:8000/vcards/${uniqueHash}.vcf`;
+            
+            // Create a single status element
+            const statusElement = document.createElement('div');
+            statusElement.id = 'vcard-status';
+            statusElement.innerHTML = `
+                <strong>Unique Reference Link:</strong> 
+                <a href="${fullReferenceLink}" target="_blank">${fullReferenceLink}</a>
+            `;
+            qrCodeContainer.appendChild(statusElement);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            
+            // Error handling
+            const errorElement = document.getElementById('vcard-error');
+            if (errorElement) {
+                errorElement.remove();
+            }
+            
+            const newErrorElement = document.createElement('div');
+            newErrorElement.id = 'vcard-error';
+            newErrorElement.style.color = 'red';
+            newErrorElement.textContent = `Error generating vCard: ${error.message}`;
+            qrCodeContainer.appendChild(newErrorElement);
+        });
+    }
 });
