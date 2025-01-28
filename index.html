@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard Generator</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="phone-screen">
+            <div class="phone-content">
+                <div id="preview-card">
+                    <img id="profile-preview" src="" alt="Profile Picture">
+                    <h2 id="name-preview">Name</h2>
+                    <p id="phone-preview">Phone</p>
+                    <p id="email-preview">Email</p>
+                    <p id="post-preview">Description</p>
+                </div>
+                <div id="qr-code-container"></div>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <form id="vcard-form">
+                <input type="text" name="name" id="name-input" placeholder="Name" required>
+                <input type="tel" name="phone" id="phone-input" placeholder="Phone" required>
+                <input type="email" name="email" id="email-input" placeholder="Email" required>
+                <input type="file" name="profile" id="profile-input" accept="image/*" required>
+                <textarea name="post" id="post-input" placeholder="Post/Description" required></textarea>
+            </form>
+            <div class="toggle-container">
+                <div class="toggle-switch">
+                    <input type="radio" id="preview-toggle-preview" name="phone-display" value="preview" checked>
+                    <label for="preview-toggle-preview">Preview</label>
+                    
+                    <input type="radio" id="preview-toggle-qr" name="phone-display" value="qr">
+                    <label for="preview-toggle-qr">QR Code</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
