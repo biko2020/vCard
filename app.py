@@ -114,9 +114,15 @@ def generate_vcard():
         vcard_data = data.get('vCardData')
         unique_hash = data.get('hash')
 
+        # Validate vCard data
         if not vcard_data or not unique_hash:
             logging.warning("Attempted to generate vCard with missing data")
             return jsonify({"error": "Missing vCard data or hash"}), 400
+
+        # Basic validation of vCard structure
+        if not vcard_data.startswith('BEGIN:VCARD') or not vcard_data.endswith('END:VCARD'):
+            logging.warning("Invalid vCard data format")
+            return jsonify({"error": "Invalid vCard data format"}), 400
 
         # Ensure the hash is URL-safe base64 encoded
         try:
@@ -134,28 +140,22 @@ def generate_vcard():
         
         # Use low-level file operations for more control
         try:
-            # Open file with explicit permissions
-            fd = os.open(vcard_filename, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o644)
-            try:
-                # Write the file contents
-                os.write(fd, vcard_data.encode('utf-8'))
-            finally:
-                # Ensure file descriptor is closed
-                os.close(fd)
+            # Open file with explicit permissions, overwrite if exists
+            with open(vcard_filename, 'w', encoding='utf-8') as f:
+                f.write(vcard_data)
             
-            logging.info(f"Generated new vCard: {unique_hash}")
-        except Exception as e:
-            logging.error(f"Error writing vCard file: {e}")
-            return jsonify({"error": f"Could not write vCard file: {e}"}), 500
+            logging.info(f"Successfully saved vCard: {vcard_filename}")
+            
+            return jsonify({
+                "status": "success", 
+                "message": "VCard generated successfully",
+                "filename": f"{unique_hash}.vcf"
+            }), 200
+        
+        except IOError as e:
+            logging.error(f"Error saving vCard: {e}")
+            return jsonify({"error": "Could not save vCard file"}), 500
 
-        # Perform cleanup of old vCards
-        cleanup_old_vcards()
-
-        return jsonify({
-            "message": "vCard saved successfully", 
-            "hash": unique_hash,
-            "path": vcard_filename
-        }), 200
     except Exception as e:
         logging.error(f"Unexpected error generating vCard: {e}")
         return jsonify({"error": str(e)}), 500

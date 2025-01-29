@@ -84,7 +84,7 @@ FN:${nameInput.value || ''}
 TEL:${phoneInput.value || ''}
 EMAIL:${emailInput.value || ''}
 NOTE:${postInput.value || ''}
-URL:${referenceLink}
+URL:${referenceLink || ''}
 UID:${uniqueHash}
 END:VCARD`;
 
@@ -132,6 +132,7 @@ END:VCARD`;
     updatePhoneDisplay();
     updateQRCode();
 
+    // Add form submission event listener
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         const formData = new FormData(form);
@@ -142,10 +143,10 @@ END:VCARD`;
         const profileFile = formData.get('profile');
         const post = formData.get('post');
 
-        // Profile Picture Preview
+        // Default profile picture if no file is selected
         const reader = new FileReader();
         reader.onload = (event) => {
-            profilePreview.src = event.target.result;
+            profilePreview.src = event.target.result || 'assets/images/default-pic.png';
 
             // Update Preview Details
             namePreview.textContent = name;
@@ -158,11 +159,11 @@ END:VCARD`;
             const { link: referenceLink, hash: uniqueHash } = generateUniqueReferenceLink();
             const vCardData = `BEGIN:VCARD
 VERSION:3.0
-FN:${name}
-TEL:${phone}
-EMAIL:${email}
-NOTE:${post}
-URL:${referenceLink}
+FN:${name || ''}
+TEL:${phone || ''}
+EMAIL:${email || ''}
+NOTE:${post || ''}
+URL:${referenceLink || ''}
 UID:${uniqueHash}
 END:VCARD`;
 
@@ -190,7 +191,13 @@ END:VCARD`;
             `;
             qrCodeContainer.appendChild(newReferenceLinkElement);
         };
-        reader.readAsDataURL(profileFile);
+
+        // If no file is selected, use default image
+        if (profileFile && profileFile.size > 0) {
+            reader.readAsDataURL(profileFile);
+        } else {
+            reader.onload({ target: { result: 'assets/images/default-pic.png' } });
+        }
     });
 
     function saveVCardToServer(vCardData, uniqueHash) {
