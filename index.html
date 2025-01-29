@@ -18,17 +18,26 @@
                     <p id="email-preview">Email</p>
                     <p id="post-preview">Description</p>
                 </div>
-                <div id="qr-code-container"></div>
+                <div id="qr-code-container" class="hidden"></div>
             </div>
         </div>
         
         <div class="form-section">
             <form id="vcard-form">
-                <input type="text" name="name" id="name-input" placeholder="Name" required>
-                <input type="tel" name="phone" id="phone-input" placeholder="Phone" required>
-                <input type="email" name="email" id="email-input" placeholder="Email" required>
-                <input type="file" name="profile" id="profile-input" accept="image/*" required>
-                <textarea name="post" id="post-input" placeholder="Post/Description" required></textarea>
+                <input type="text" name="name" id="name-input" placeholder="Full Name" required>
+                <input type="tel" name="phone" id="phone-input" placeholder="Phone Number" required>
+                <input type="email" name="email" id="email-input" placeholder="Email Address" required>
+                <p>Image</p>
+                <div class="file-upload-box"> 
+                    <label for="profile-input">
+                        <div class="upload-icon"></div>
+                        <p class="upload-text">Download an image (jepg, png, jpg,svg)</p>
+                        <span class="upload-size">Maximum size: 5 MB</span>
+                    </label>
+                    <input type="file" name="profile" id="profile-input" accept="image/*" required>
+                </div>
+                
+                <textarea name="post" id="post-input" placeholder="Short Description" required></textarea>
             </form>
             <div class="toggle-container">
                 <div class="toggle-switch">

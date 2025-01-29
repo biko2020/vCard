@@ -14,10 +14,26 @@ vCard Generator is a simple, interactive web application that allows users to cr
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- QR Code Generator Library
+### Backend
+- **Python 3.8+**: Primary programming language
+- **Flask**: Lightweight web framework
+- **Flask-CORS**: Cross-Origin Resource Sharing support
+
+### Frontend
+- **HTML5**: Semantic markup for structure
+- **CSS3**: Responsive design with Flexbox and Grid
+- **Vanilla JavaScript (ES6+)**: Dynamic interactions and form handling
+
+### Libraries and Tools
+- **QR Code Generator**: `qrcode.js` for dynamic QR code generation
+- **Font Awesome**: Icon library for enhanced UI elements
+- **Logging**: Integrated Python logging for server-side tracking
+
+### Development Tools
+- **Git**: Version control
+- **VS Code**: Primary development environment
+- **Browser DevTools**: Debugging and performance optimization
+- **Virtual Environment**: Python venv for dependency management
 
 ## Getting Started
 
@@ -67,6 +83,13 @@ vCard Generator is a simple, interactive web application that allows users to cr
 - Firefox ✓
 - Safari ✓
 - Edge ✓
+
+## Project Status
+
+🟢 Active Development
+- Current Version: 1.0.0
+- Last Updated: 2025-01-28
+- Actively maintained and open to community contributions
 
 ## Contributing
 

@@ -453,3 +453,489 @@
 2025-01-28 19:33:07,406 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:07] "POST /generate_vcard HTTP/1.1" 200 -
 2025-01-28 19:33:10,691 - INFO - [app.py:166] - Attempting to serve vCard file: QkVMQUZLSUggU2Fs.vcf
 2025-01-28 19:33:10,692 - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Jan/2025 19:33:10] "GET /vcards/QkVMQUZLSUggU2Fs.vcf HTTP/1.1" 200 -
+2025-01-29 09:07:11,226 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:11] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:07:11,698 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:11] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:07:11,730 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:11] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:07:11,850 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:11] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:07:12,075 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:12] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:07:12,176 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:07:12,280 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:07:12,281 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:12] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:07:22,014 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:07:22,015 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:07:22,015 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:07:22,035 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:07:22,035 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:07:22,035 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:07:22,060 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:07:22,060 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:07:22,060 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:07:27,495 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:07:27,496 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:07:27,496 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:07:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:10:15,024 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "GET / HTTP/1.1" 200 -
+2025-01-29 09:10:15,047 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:10:15,053 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:10:15,055 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:10:15,127 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:10:15,127 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:10:15,127 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:10:15,137 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:15] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:10:28,423 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:10:28,423 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:10:28,424 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:10:28,462 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:10:28,463 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:10:28,463 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:10:28,485 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:10:28,485 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:10:28,486 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:10:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:16:01,747 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:01] "GET / HTTP/1.1" 200 -
+2025-01-29 09:16:01,947 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:01] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:16:02,039 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:02] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:16:02,248 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:02] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:16:02,687 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:16:02,688 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:16:02,688 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:02] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:16:02,959 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:16:02] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:30:01,750 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:01] "GET / HTTP/1.1" 200 -
+2025-01-29 09:30:04,095 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:04] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:30:04,107 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:04] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:30:04,293 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:04] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:30:04,912 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:04] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:30:05,128 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:30:05,311 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:05] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:30:05,686 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:30:05,687 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:30:05,688 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:30:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:32:32,023 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "GET / HTTP/1.1" 200 -
+2025-01-29 09:32:32,050 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:32:32,070 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:32:32,071 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:32:32,153 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:32:32,153 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:32:32,154 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:32:32,159 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:32:32,159 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:32:32,167 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:32:32] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:33:25,287 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "GET / HTTP/1.1" 200 -
+2025-01-29 09:33:25,308 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:33:25,312 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:33:25,313 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:33:25,368 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:33:25,369 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:33:25,431 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:33:25,432 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:33:25,432 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:33:25,441 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:25] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,392 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,429 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,432 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,435 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,440 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:33:27,510 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:33:27,511 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:33:27,556 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:33:27,556 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:33:27,557 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:33:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:34:13,398 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "GET / HTTP/1.1" 200 -
+2025-01-29 09:34:13,518 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:34:13,523 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:34:13,528 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:34:13,584 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:34:13,584 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:34:13,585 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:34:13,589 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:34:13,589 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:34:13,653 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:34:13] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:35:08,978 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:08] "GET / HTTP/1.1" 200 -
+2025-01-29 09:35:09,004 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:35:09,023 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:35:09,024 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:35:09,047 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:35:09,087 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:35:09,087 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:35:09,146 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:35:09,146 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:35:09,147 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:09] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:35:34,953 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:34] "GET / HTTP/1.1" 200 -
+2025-01-29 09:35:34,968 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:34] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:35:34,970 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:34] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:35:34,973 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:34] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:35:34,989 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:34] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:35:35,083 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:35:35,083 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:35:35,084 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:35] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:35:35,085 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:35:35,105 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:35:35] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:36:04,983 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:04] "GET / HTTP/1.1" 200 -
+2025-01-29 09:36:05,004 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:36:05,009 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:36:05,012 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:36:05,017 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:36:05,100 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:36:05,100 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:36:05,101 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:36:05,101 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:36:05,102 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:36:05] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:41:50,777 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:41:50,805 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:41:50,831 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:41:50,831 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:41:50,865 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:41:50,872 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:41:50,873 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:41:50,935 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:41:50,936 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:41:50,936 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:41:50] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:42:30,367 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "GET / HTTP/1.1" 200 -
+2025-01-29 09:42:30,475 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:42:30,484 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:42:30,486 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:42:30,553 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:42:30,553 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:42:30,553 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:42:30,558 - ERROR - [app.py:182] - Error serving static file assets/css/upload-icon.svg: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-29 09:42:30,559 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "[33mGET /assets/css/upload-icon.svg HTTP/1.1[0m" 404 -
+2025-01-29 09:42:30,575 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:42:30] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:43:18,466 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:43:18,488 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:43:18,497 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:43:18,501 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:43:18,507 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:43:18,585 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:43:18,585 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:43:18,585 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:43:18] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:44:42,888 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:42] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:44:42,911 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:42] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:44:42,918 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:42] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:44:42,922 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:42] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:44:43,014 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:43] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:44:43,015 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:44:43,016 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:44:43,017 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:44:43] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:47:09,846 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:09] "GET / HTTP/1.1" 200 -
+2025-01-29 09:47:09,874 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:09] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:47:09,878 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:09] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:47:09,883 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:09] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:47:09,904 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:09] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:47:10,299 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:47:10,300 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:47:10,300 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:10] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:47:30,561 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:47:30,561 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:47:30,563 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:47:30,674 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:47:30,675 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:47:30,675 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:47:30,675 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:47:30,676 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:47:30,676 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:47:37,250 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/QnJhaGltIEFpdG91.vcf
+2025-01-29 09:47:37,250 - INFO - [app.py:146] - Generated new vCard: QnJhaGltIEFpdG91
+2025-01-29 09:47:37,251 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:47:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:52:07,344 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:07] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:52:07,961 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:07] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:52:08,016 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:08] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:52:08,099 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:08] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:52:08,465 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:52:08,465 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:52:08,465 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:08] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:52:44,609 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:52:44,631 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:52:44,639 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:52:44,640 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:52:44,677 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:52:44,750 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:52:44,757 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:52:44,758 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:52:49,014 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 09:52:49,040 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 09:52:49,069 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 09:52:49,071 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:52:49,132 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:52:49,132 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:52:49,133 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 09:52:49,143 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:52:49] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 09:53:53,301 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "GET / HTTP/1.1" 200 -
+2025-01-29 09:53:53,328 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 09:53:53,371 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "GET /assets/images/default-pic.png HTTP/1.1" 200 -
+2025-01-29 09:53:53,389 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 09:53:53,393 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 09:53:53,576 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 09:53:53,576 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 09:53:53,577 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 09:53:53] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:07:18,620 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:18] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:07:19,630 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:19] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:07:19,633 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:19] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:07:19,635 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:19] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:07:19,650 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:19] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:07:19,837 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:07:19,837 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:07:19,839 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:19] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:07:57,156 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "GET / HTTP/1.1" 200 -
+2025-01-29 10:07:57,246 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:07:57,338 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "GET /assets/images/default-pic.png HTTP/1.1" 200 -
+2025-01-29 10:07:57,367 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 10:07:57,372 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 10:07:57,418 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:07:57,418 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:07:57,419 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:07:57] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:09:11,246 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:09:11] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:09:11,263 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:09:11] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:09:11,270 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:09:11] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:09:11,271 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:09:11] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:09:11,351 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:09:11,351 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:09:11,352 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:09:11] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:15:22,267 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:15:26,227 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:26] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:15:26,234 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:26] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:15:26,238 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:26] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:15:26,273 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:26] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:15:26,379 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:15:26,408 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:15:26,410 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:15:26] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:26,690 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/TzIwMjUtMDEtMjlU.vcf
+2025-01-29 10:16:26,723 - INFO - [app.py:146] - Generated new vCard: TzIwMjUtMDEtMjlU
+2025-01-29 10:16:26,723 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:26] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:26,739 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3QyMDI1LTAxLTI5.vcf
+2025-01-29 10:16:26,739 - INFO - [app.py:146] - Generated new vCard: T3QyMDI1LTAxLTI5
+2025-01-29 10:16:26,739 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:26] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:27,002 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtMjAyNS0wMS0y.vcf
+2025-01-29 10:16:27,002 - INFO - [app.py:146] - Generated new vCard: T3RtMjAyNS0wMS0y
+2025-01-29 10:16:27,003 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:27,184 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYTIwMjUtMDEt.vcf
+2025-01-29 10:16:27,184 - INFO - [app.py:146] - Generated new vCard: T3RtYTIwMjUtMDEt
+2025-01-29 10:16:27,185 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:27,419 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW4yMDI1LTAx.vcf
+2025-01-29 10:16:27,419 - INFO - [app.py:146] - Generated new vCard: T3RtYW4yMDI1LTAx
+2025-01-29 10:16:27,419 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:27,827 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pMjAyNS0w.vcf
+2025-01-29 10:16:27,828 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pMjAyNS0w
+2025-01-29 10:16:27,828 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:27] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:29,351 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIDIwMjUt.vcf
+2025-01-29 10:16:29,351 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIDIwMjUt
+2025-01-29 10:16:29,352 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:29,617 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG0yMDI1.vcf
+2025-01-29 10:16:29,617 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG0yMDI1
+2025-01-29 10:16:29,618 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:29,806 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vMjAy.vcf
+2025-01-29 10:16:29,806 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vMjAy
+2025-01-29 10:16:29,807 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:29] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:30,200 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaDIw.vcf
+2025-01-29 10:16:30,201 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaDIw
+2025-01-29 10:16:30,201 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:30,387 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGEy.vcf
+2025-01-29 10:16:30,388 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGEy
+2025-01-29 10:16:30,389 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:30,655 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:30,656 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:30,657 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:30,737 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:30,737 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:30,738 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:30,976 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:30,976 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:30,976 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:30] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:31,219 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:31,219 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:31,220 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:31] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:34,189 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:34,189 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:34,189 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:34] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:36,527 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:36,527 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:36,528 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:36] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:36,870 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:36,870 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:36,871 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:36] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:37,038 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:37,039 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:37,039 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:37,805 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:37,806 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:37,806 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:37,974 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:37,974 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:37,974 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:37] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:38,300 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:38,300 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:38,301 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:38] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:38,529 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:38,529 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:38,530 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:38] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:38,881 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:38,881 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:38,882 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:38] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:39,230 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:39,230 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:39,231 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:39] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:41,336 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:41,336 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:41,338 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:41] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:44,121 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:44,121 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:44,122 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:44,141 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:44,157 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:44,158 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:44,160 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:44,179 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:44,180 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:44,180 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:44,180 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:44,181 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:44,224 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:44,224 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:44,225 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:44] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:46,193 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:46,194 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:46,194 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:46,583 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:46,583 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:46,584 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:46,781 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:46,781 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:46,782 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:46] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:48,384 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:48,384 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:48,385 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:48] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:48,734 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:48,734 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:48,735 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:48] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:49,391 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:49,391 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:49,392 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:49] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:49,839 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:49,839 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:49,840 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:49] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:50,753 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:50,753 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:50,754 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:50] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:16:58,392 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:16:58,392 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:16:58,392 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:16:58] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:17:14,589 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:17:14,590 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:17:14,590 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:14] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:17:14,737 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/T3RtYW5pIG1vaGFt.vcf
+2025-01-29 10:17:14,737 - INFO - [app.py:146] - Generated new vCard: T3RtYW5pIG1vaGFt
+2025-01-29 10:17:14,738 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:14] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:17:28,777 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:28] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:17:34,255 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:34] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:17:34,256 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:34] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:17:34,258 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:34] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:17:34,264 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:34] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:17:34,877 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:17:34,877 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:17:34,878 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:17:34] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:18:58,942 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:18:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:18:59,487 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:18:59] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:18:59,796 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:18:59] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:18:59,814 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:18:59] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:19:00,735 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:00] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:19:00,897 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:19:00,897 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:19:00,897 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:00] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:19:47,095 - INFO - [app.py:24] - Current User: pc
+2025-01-29 10:19:47,095 - INFO - [app.py:25] - Current Working Directory: /var/www/html/vCard
+2025-01-29 10:19:47,096 - INFO - [app.py:26] - Process User ID: 1000
+2025-01-29 10:19:47,096 - INFO - [app.py:27] - Process Group ID: 1000
+2025-01-29 10:19:47,100 - INFO - [app.py:41] - Attempting to create vCard storage directory: /var/www/html/vCard/vcards
+2025-01-29 10:19:47,100 - ERROR - [app.py:51] - Could not change vcards directory permissions: [Errno 1] Operation not permitted: '/var/www/html/vCard/vcards'
+2025-01-29 10:19:47,101 - ERROR - [app.py:52] - Current directory permissions: 0o777
+2025-01-29 10:19:47,484 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.98:8000
+2025-01-29 10:19:47,484 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-01-29 10:19:47,485 - INFO - [_internal.py:97] -  * Restarting with stat
+2025-01-29 10:19:47,624 - INFO - [app.py:24] - Current User: pc
+2025-01-29 10:19:47,624 - INFO - [app.py:25] - Current Working Directory: /var/www/html/vCard
+2025-01-29 10:19:47,624 - INFO - [app.py:26] - Process User ID: 1000
+2025-01-29 10:19:47,624 - INFO - [app.py:27] - Process Group ID: 1000
+2025-01-29 10:19:47,625 - INFO - [app.py:41] - Attempting to create vCard storage directory: /var/www/html/vCard/vcards
+2025-01-29 10:19:47,625 - ERROR - [app.py:51] - Could not change vcards directory permissions: [Errno 1] Operation not permitted: '/var/www/html/vCard/vcards'
+2025-01-29 10:19:47,625 - ERROR - [app.py:52] - Current directory permissions: 0o777
+2025-01-29 10:19:47,633 - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-01-29 10:19:47,703 - INFO - [_internal.py:97] -  * Debugger PIN: 595-302-627
+2025-01-29 10:19:50,552 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:19:50,672 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:50] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:19:50,685 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:50] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:19:50,687 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:50] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:19:50,761 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:50] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:19:51,115 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:19:51,115 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:19:51,116 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:19:51] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:20:21,752 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:21] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:20:21,772 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:21] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:20:21,776 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:21] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:20:21,778 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:21] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:20:21,785 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:21] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:20:22,157 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:20:22,158 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:20:22,159 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:20:22] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:24:27,658 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:24:28,133 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:28] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:24:28,170 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:28] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:24:28,445 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:28] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:24:28,449 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:28] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:24:28,490 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:24:28,490 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:24:28,491 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:24:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:27:44,466 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:27:46,410 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:46] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:27:46,421 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:46] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:27:46,692 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:46] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:27:47,005 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:47] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:27:47,620 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:27:47,621 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:27:47,623 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:27:47] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:28:28,028 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:28:28,049 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:28:28,051 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:28:28,077 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:28:28,173 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:28:28,174 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:28:28,176 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:28:28,177 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:28:28] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:29:42,416 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "GET / HTTP/1.1" 200 -
+2025-01-29 10:29:42,598 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:29:42,627 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 10:29:42,633 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2025-01-29 10:29:42,642 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "GET /assets/images/default-pic.png HTTP/1.1" 200 -
+2025-01-29 10:29:42,724 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:29:42,724 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:29:42,725 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:29:42] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:30:45,177 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:30:45,583 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:30:45,781 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:30:45,865 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:30:45,886 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:30:45,980 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:30:45,980 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:30:45,981 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:30:45] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:32:39,571 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:32:39,977 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:39] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:32:39,988 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:39] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:32:39,991 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:39] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:32:40,055 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:40] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:32:40,199 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:32:40,199 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:32:40,200 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:32:40] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:34:53,413 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:34:53] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:34:53,439 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:34:53] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2025-01-29 10:34:53,458 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:34:53] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:34:53,460 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:34:53] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:34:53,540 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:34:53,540 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:34:53,541 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:34:53] "POST /generate_vcard HTTP/1.1" 200 -
+2025-01-29 10:35:56,574 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-29 10:35:56,601 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "[36mGET /assets/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-29 10:35:56,608 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "[36mGET /assets/images/default-pic.png HTTP/1.1[0m" 304 -
+2025-01-29 10:35:56,609 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:35:56,621 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "[36mGET /assets/js/QRcode.js HTTP/1.1[0m" 304 -
+2025-01-29 10:35:56,699 - INFO - [app.py:133] - Attempting to save vCard to: /var/www/html/vCard/vcards/MjAyNS0wMS0yOVQw.vcf
+2025-01-29 10:35:56,700 - INFO - [app.py:146] - Generated new vCard: MjAyNS0wMS0yOVQw
+2025-01-29 10:35:56,700 - INFO - [_internal.py:97] - 127.0.0.1 - - [29/Jan/2025 10:35:56] "POST /generate_vcard HTTP/1.1" 200 -

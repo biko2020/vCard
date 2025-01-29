@@ -11,8 +11,8 @@ body {
 .container {
     display: flex;
     background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
     overflow: hidden;
     width: 900px;
 }
@@ -30,37 +30,33 @@ body {
 
 .phone-content {
     background-color: white;
-    border-radius: 20px;
-    width: 300px;
-    height: 500px;
+    border-radius: 15px;
+    width: 320px;
+    height: 520px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 20px;
 }
 
 #preview-card, #qr-code-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 20px;
     width: 100%;
 }
 
 #profile-preview {
-    width: 50px;
-    height: 50px;
-    /* border-radius: 50%; */
-    /* object-fit: cover; */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 15px;
 }
+
 .form-section {
     flex: 1;
     padding: 30px;
@@ -76,9 +72,10 @@ body {
 #vcard-form input, 
 #vcard-form textarea {
     margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 12px;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .toggle-container {
@@ -90,8 +87,10 @@ body {
 .toggle-switch {
     display: flex;
     background-color: #f0f0f0;
-    border-radius: 20px;
+    border-radius: 25px;
     overflow: hidden;
+    padding: 5px;
+    width: 60%;
 }
 
 .toggle-switch input {
@@ -102,14 +101,81 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    flex: 1; /* Make labels fill the available space */
+    text-align: center;
 }
 
 .toggle-switch input:checked + label {
     background-color: #2196F3;
     color: white;
+    
 }
+
+/* Ensure each label gets the correct rounded border */
+#preview-toggle-preview {
+    border-radius: 50px 0 0 50px;
+}
+
+#preview-toggle-qr {
+    border-radius: 0 50px 50px 0;
+}
+
+/* Ensure the labels behave like block elements */
+.toggle-switch label:first-of-type {
+    border-radius: 50px 0 0 50px;
+}
+
+.toggle-switch label:last-of-type {
+    border-radius: 0 50px 50px 0;
+}
+
 
 #qr-code-container img {
     max-width: 200px;
     max-height: 200px;
+}
+.file-upload-box {
+    width: 100%;
+    max-width: 250px; /* Adjust width as needed */
+    height: 120px;
+    border: 2px dashed #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+    position: relative;
+    margin: 0px 0px 20px 0px;
+}
+
+.file-upload-box:hover {
+    border-color: #045f35;
+}
+
+.upload-icon {
+    width: 40px;
+    height: 40px;
+    background: url('/assets/images/default-pic.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.upload-text {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.upload-size {
+    font-size: 12px;
+    color: #888;
+}
+
+#profile-input {
+    display: none; /* Hides default file input */
 }
