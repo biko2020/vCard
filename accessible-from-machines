@@ -6,3 +6,9 @@ Or for production deployment:
 
 gunicorn --bind 0.0.0.0:8000 app:app
 
+
+Firewall Configuration You'll need to open port 8000 on your machine. On most Linux systems, you can do this with:
+
+sudo ufw allow 8000/tcp  # For UFW (Uncomplicated Firewall)
+# or
+sudo firewall-cmd --permanent --add-port=8000/tcp  # For FirewallD

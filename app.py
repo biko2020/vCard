@@ -72,40 +72,6 @@ def cleanup_old_vcards(max_age_days=7):
     except Exception as e:
         logging.error(f"Error during vCard cleanup: {e}")
 
-@app.route('/vcard/<hash_id>')
-def serve_vcard(hash_id):
-    try:
-        # Log the incoming hash for debugging
-        logging.info(f"Attempting to serve vCard with hash: {hash_id}")
-        
-        # Decode the hash to get the filename
-        try:
-            decoded_filename = base64.urlsafe_b64decode(hash_id.encode()).decode('utf-8')
-        except Exception as decode_error:
-            logging.error(f"Hash decoding error: {decode_error}")
-            logging.error(f"Problematic hash: {hash_id}")
-            abort(404)
-        
-        # Construct the vCard path
-        vcard_path = os.path.join(VCARD_STORAGE_DIR, f"{hash_id}.vcf")
-        
-        # Log the constructed path for debugging
-        logging.info(f"Constructed vCard path: {vcard_path}")
-        
-        # Check if the vCard file exists
-        if not os.path.exists(vcard_path):
-            logging.warning(f"vCard file not found: {vcard_path}")
-            logging.warning(f"Contents of VCARD_STORAGE_DIR: {os.listdir(VCARD_STORAGE_DIR)}")
-            abort(404)
-        
-        # Log vCard access
-        logging.info(f"Serving vCard: {hash_id}")
-        
-        # Serve the vCard file
-        return send_file(vcard_path, mimetype='text/vcard', as_attachment=True, download_name=f"{hash_id}.vcf")
-    except Exception as e:
-        logging.error(f"Unexpected error serving vCard {hash_id}: {e}")
-        abort(404)
 
 @app.route('/generate_vcard', methods=['POST'])
 def generate_vcard():
