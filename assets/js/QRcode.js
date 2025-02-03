@@ -1,3 +1,8 @@
+// Conditional logging function
+const log = typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 'development' 
+  ? console.log 
+  : () => {};
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('vcard-form');
     const previewCard = document.getElementById('preview-card');
@@ -54,14 +59,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Profile picture preview
-    profileInput.addEventListener('change', (e) => {
-        const file = e.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = (event) => {
-                profilePreview.src = event.target.result;
-            };
-            reader.readAsDataURL(file);
+    profileInput.addEventListener('change', (event) => {
+        if (event.target.files.length > 0) {
+            profileFile = event.target.files[0];
+            updatePreview();
+            debounce(updateQRCode, 1000);
+            log("Selected file:", profileFile.name, profileFile.size, profileFile.type);
+        } else {
+            log("No file selected!");
         }
     });
     // Unique reference link generation function
@@ -257,10 +262,10 @@ END:VCARD`;
         })
         .then(response => response.json())
         .then(data => {
-            console.log('VCard saved successfully:', data);
+            log('VCard saved successfully:', data);
         })
         .catch(error => {
-            console.error('Error saving VCard:', error);
+            log('Error saving VCard:', error);
         });
     }
 
