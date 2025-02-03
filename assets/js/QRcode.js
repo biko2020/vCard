@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const previewTogglePreview = document.getElementById('preview-toggle-preview');
     const previewToggleQR = document.getElementById('preview-toggle-qr');
 
+    let profileFile = null;  // Declare profileFile at a higher scope
+
     // Real-time text input updates
     let debounceTimer;
     function debounce(func, delay) {
@@ -119,6 +121,7 @@ FN:${name}
 TEL:${phone}
 EMAIL:${email}
 NOTE:${post}
+PHOTO:${profileFile ? profileFile : ''}
 URL:${referenceLink}
 UID:${uniqueHash}
 END:VCARD`;
@@ -177,7 +180,7 @@ END:VCARD`;
         const name = formData.get('name');
         const phone = formData.get('phone');
         const email = formData.get('email');
-        const profileFile = formData.get('profile');
+        profileFile = formData.get('profile');  // Update profileFile here
         const post = formData.get('post');
 
         // Default profile picture if no file is selected
@@ -238,59 +241,27 @@ END:VCARD`;
     });
 
     function saveVCardToServer(vCardData, uniqueHash) {
+        // Create a FormData object to send both vCard data and photo
+        const formData = new FormData();
+        formData.append('vCardData', vCardData);
+        formData.append('hash', uniqueHash);
+        
+        // Append the profile file if it exists
+        if (profileFile && profileFile.size > 0) {
+            formData.append('profile', profileFile);
+        }
+
         fetch('/generate_vcard', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                vCardData: vCardData,
-                hash: uniqueHash
-            })
+            body: formData  // Use FormData instead of JSON
         })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Remove any existing reference link or status elements
-                const existingStatusElements = [
-                    document.getElementById('vcard-status'),
-                    document.getElementById('reference-link')
-                ];
-                existingStatusElements.forEach(el => {
-                    if (el) el.remove();
-                });
-
-                // Construct a fully qualified URL
-                const fullReferenceLink = `${window.location.protocol}//${window.location.host}/vcards/${uniqueHash}.vcf`;
-
-                // Create a single status element
-                const statusElement = document.createElement('div');
-                statusElement.id = 'vcard-status';
-                statusElement.innerHTML = `
-                <strong>Unique Reference Link:</strong> 
-                <a href="${fullReferenceLink}" target="_blank">${fullReferenceLink}</a>
-            `;
-                qrCodeContainer.appendChild(statusElement);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-
-                // Error handling
-                const errorElement = document.getElementById('vcard-error');
-                if (errorElement) {
-                    errorElement.remove();
-                }
-
-                const newErrorElement = document.createElement('div');
-                newErrorElement.id = 'vcard-error';
-                newErrorElement.style.color = 'red';
-                newErrorElement.textContent = `Error generating vCard: ${error.message}`;
-                qrCodeContainer.appendChild(newErrorElement);
-            });
+        .then(response => response.json())
+        .then(data => {
+            console.log('VCard saved successfully:', data);
+        })
+        .catch(error => {
+            console.error('Error saving VCard:', error);
+        });
     }
 
     function generateAccessQR() {
