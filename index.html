@@ -36,7 +36,17 @@
                     </label>
                     <input type="file" name="profile" id="profile-input" accept="image/*" required>
                 </div>
-                
+                <select id="category-select" name="category" required>
+                    <option value="">Select Sector</option>
+                    <option value="education">Éducation et Recherche</option>
+                    <option value="artisanat">Artisanat et BTP</option>
+                    <option value="hospitality">Hôtellerie, Tourisme, Restauration</option>
+                    <option value="arts">Art, Culture et Médias</option>
+                    <option value="law">Droit et Justice</option>
+                </select>
+                <select id="subcategory-select" name="subcategory" required disabled>
+                    <option value="">Select Subcategory</option>
+                </select>
                 <input type="text" name="post" id="post-input" placeholder="Short Description" required>
             </form>
             <div class="toggle-container">
@@ -50,6 +60,8 @@
             </div>
         </div>
     </div>
+    <!-- Add this line before the closing </body> tag -->
+    <script src="/assets/js/category-select.js"></script>
     <script src="/assets/js/image-upload.js"></script>
     <script src="/assets/js/QRcode.js"></script>
 </body>

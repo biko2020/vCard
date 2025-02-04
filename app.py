@@ -88,6 +88,13 @@ def generate_vcard():
             vcard_data = request.form.get('vCardData')
             unique_hash = request.form.get('hash')
             
+            # Add detailed logging for file uploads
+            if 'profile' in request.files:
+                file = request.files['profile']
+                logging.info(f"Uploaded file name: {file.filename}")
+                logging.info(f"Uploaded file size: {len(file.read())} bytes")
+                file.seek(0)  # Reset file pointer after reading
+            
             # Handle profile photo if uploaded
             profile_file = request.files.get('profile')
             if profile_file:

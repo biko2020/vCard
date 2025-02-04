@@ -78,6 +78,35 @@ body {
     font-size: 16px;
 }
 
+#category-select, 
+#subcategory-select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M1 4l5 5 5-5z' fill='%23999999'/%3E%3C/svg%3E") no-repeat right 10px center;
+    background-size: 12px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+#category-select:focus, 
+#subcategory-select:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+#category-select:disabled, 
+#subcategory-select:disabled {
+    background-color: #f4f4f4;
+    cursor: not-allowed;
+    color: #888;
+}
+
 .toggle-container {
     display: flex;
     justify-content: center;
