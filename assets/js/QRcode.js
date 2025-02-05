@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const phonePreview = document.getElementById('phone-preview');
     const emailPreview = document.getElementById('email-preview');
     const postPreview = document.getElementById('post-preview');
+    const subcategoryPreview = document.getElementById('subcategory-preview');
     const qrCodeContainer = document.getElementById('qr-code-container');
 
     const nameInput = document.getElementById('name-input');
@@ -18,6 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const emailInput = document.getElementById('email-input');
     const profileInput = document.getElementById('profile-input');
     const postInput = document.getElementById('post-input');
+    const categorySelect = document.getElementById('category-select');
+    const subcategorySelect = document.getElementById('subcategory-select');
 
     const previewTogglePreview = document.getElementById('preview-toggle-preview');
     const previewToggleQR = document.getElementById('preview-toggle-qr');
@@ -32,10 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updatePreview() {
+        const namePreview = document.getElementById('name-preview');
+        const phonePreview = document.getElementById('phone-preview');
+        const emailPreview = document.getElementById('email-preview');
+        const postPreview = document.getElementById('post-preview');
+
         namePreview.textContent = nameInput.value || 'Name';
         phonePreview.textContent = phoneInput.value || 'Phone';
         emailPreview.textContent = emailInput.value || 'Email';
         postPreview.textContent = postInput.value || 'Description';
+        
+        const subcategorySelect = document.getElementById('subcategory-select');
+        
+        const selectedSubcategory = subcategorySelect.value || 'Subcategory';
+               
+        subcategoryPreview.textContent = `${selectedSubcategory}`;
     }
 
     nameInput.addEventListener('input', () => {
@@ -49,6 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     emailInput.addEventListener('input', () => {
+        updatePreview();
+        debounce(updateQRCode, 1000);
+    });
+
+    subcategorySelect.addEventListener('change', () => {
         updatePreview();
         debounce(updateQRCode, 1000);
     });
@@ -113,10 +132,12 @@ document.addEventListener('DOMContentLoaded', () => {
             uniqueHash = uniqueHashResult.hash;
         }
 
-        const name = nameInput.value || '';
-        const phone = phoneInput.value || '';
-        const email = emailInput.value || '';
-        const post = postInput.value || '';
+        const name = nameInput.value;
+        const phone = phoneInput.value;
+        const email = emailInput.value;
+        const post = postInput.value;
+        const category = categorySelect.value;
+        const subcategory = subcategorySelect.value;
 
         const referenceLink = `${window.location.protocol}//${window.location.host}/vcards/${uniqueHash}.vcf`;
 
@@ -125,6 +146,8 @@ VERSION:3.0
 FN:${name}
 TEL:${phone}
 EMAIL:${email}
+CATEGORIES:${category}
+TITLE:${subcategory}
 NOTE:${post}
 PHOTO:${profileFile ? profileFile : ''}
 URL:${referenceLink}
@@ -186,6 +209,7 @@ END:VCARD`;
         const phone = formData.get('phone');
         const email = formData.get('email');
         profileFile = formData.get('profile');  // Update profileFile here
+        const subcategory = formData.get('subcategory');
         const post = formData.get('post');
 
         // Default profile picture if no file is selected
@@ -198,6 +222,8 @@ END:VCARD`;
             phonePreview.textContent = phone;
             emailPreview.textContent = email;
             postPreview.textContent = post;
+            subcategoryPreview.textContent = subcategory;
+
 
             // Generate QR Code
             const qr = qrcode(0, 'M');
@@ -207,10 +233,13 @@ VERSION:3.0
 FN:${name || ''}
 TEL:${phone || ''}
 EMAIL:${email || ''}
+X-SUBCATEGORY:${subcategory || ''}
 NOTE:${post || ''}
+PHOTO:${profileFile ? profileFile : ''}
 URL:${referenceLink || ''}
-UID:${uniqueHash}
+UID:${uniqueHash || ''}
 END:VCARD`;
+            
 
             qr.addData(vCardData);
             qr.make();
