@@ -1,3 +1,14 @@
+# Serve index.html at the root URL
+from flask import render_template_string
+
+@app.route("/")
+def index():
+	try:
+		with open(os.path.join(CURRENT_DIR, "index.html"), encoding="utf-8") as f:
+			return render_template_string(f.read())
+	except Exception as e:
+		logging.error(f"Error serving index.html: {e}")
+		return "index.html not found", 404
 # Copied from app.py
 from flask import Flask, send_file, abort, request, jsonify, send_from_directory
 from flask_cors import CORS
@@ -109,5 +120,5 @@ def generate_vcard():
 # ...rest of your Flask routes and logic...
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(debug=True, host="0.0.0.0", port=5000)
 # ...existing code from app.py will be moved here...

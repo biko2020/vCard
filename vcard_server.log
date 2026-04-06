@@ -3724,3 +3724,108 @@
 2026-04-06 16:08:22,484 - INFO - [main.py:33] - Process ID: 6264
 2026-04-06 16:08:22,484 - INFO - [main.py:34] - Process Group ID: 6264
 2026-04-06 16:08:22,485 - CRITICAL - [main.py:63] - FATAL: Could not create vcards directory: name 'PROJECT_ROOT' is not defined
+2026-04-06 16:10:11,616 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:10:11,616 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:10:11,616 - INFO - [main.py:33] - Process ID: 2656
+2026-04-06 16:10:11,616 - INFO - [main.py:34] - Process Group ID: 2656
+2026-04-06 16:10:11,617 - INFO - [main.py:49] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:10:11,617 - INFO - [main.py:57] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:10:12,120 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-06 16:10:12,120 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:10:12,122 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:10:12,600 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:10:12,600 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:10:12,600 - INFO - [main.py:33] - Process ID: 14600
+2026-04-06 16:10:12,600 - INFO - [main.py:34] - Process Group ID: 14600
+2026-04-06 16:10:12,601 - INFO - [main.py:49] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:10:12,601 - INFO - [main.py:57] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:10:12,616 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:10:12,617 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:10:58,389 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:10:58] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:10:58,430 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:10:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-06 16:11:01,963 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:11:01] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:14:07,677 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:14:07,678 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:14:07,678 - INFO - [app.py:33] - Process ID: 6168
+2026-04-06 16:14:07,678 - INFO - [app.py:34] - Process Group ID: 6168
+2026-04-06 16:14:07,679 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:14:07,679 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:14:07,741 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.2.14:8000
+2026-04-06 16:14:07,742 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:14:07,745 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:14:08,312 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:14:08,312 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:14:08,313 - INFO - [app.py:33] - Process ID: 5856
+2026-04-06 16:14:08,313 - INFO - [app.py:34] - Process Group ID: 5856
+2026-04-06 16:14:08,314 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:14:08,314 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:14:08,336 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:14:08,338 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:17:40,730 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:17:40,730 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:17:40,730 - INFO - [main.py:33] - Process ID: 13956
+2026-04-06 16:17:40,730 - INFO - [main.py:34] - Process Group ID: 13956
+2026-04-06 16:17:40,731 - INFO - [main.py:49] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:17:40,731 - INFO - [main.py:57] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:17:40,761 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-06 16:17:40,761 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:17:40,762 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:17:41,021 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:17:41,021 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:17:41,021 - INFO - [main.py:33] - Process ID: 11844
+2026-04-06 16:17:41,021 - INFO - [main.py:34] - Process Group ID: 11844
+2026-04-06 16:17:41,022 - INFO - [main.py:49] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:17:41,023 - INFO - [main.py:57] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:17:41,037 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:17:41,039 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:17:55,425 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:17:55] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:17:56,405 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:17:56] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:18:51,077 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:18:51] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:18:59,126 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:18:59] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-06 16:20:09,149 - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\Me\\Documents\\vCard\\main.py', reloading
+2026-04-06 16:20:09,226 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:20:53,607 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:20:53,607 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:20:53,607 - INFO - [app.py:33] - Process ID: 6092
+2026-04-06 16:20:53,607 - INFO - [app.py:34] - Process Group ID: 6092
+2026-04-06 16:20:53,609 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:20:53,609 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:20:53,641 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.2.14:8000
+2026-04-06 16:20:53,641 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:20:53,642 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:20:53,901 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:20:53,901 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:20:53,901 - INFO - [app.py:33] - Process ID: 8472
+2026-04-06 16:20:53,901 - INFO - [app.py:34] - Process Group ID: 8472
+2026-04-06 16:20:53,902 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:20:53,902 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:20:53,918 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:20:53,919 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:22:50,115 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:22:50,115 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:22:50,115 - INFO - [app.py:33] - Process ID: 18200
+2026-04-06 16:22:50,115 - INFO - [app.py:34] - Process Group ID: 18200
+2026-04-06 16:22:50,116 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:22:50,117 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:22:50,146 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.2.14:8000
+2026-04-06 16:22:50,146 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:22:50,148 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:22:50,413 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:22:50,413 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:22:50,413 - INFO - [app.py:33] - Process ID: 14820
+2026-04-06 16:22:50,413 - INFO - [app.py:34] - Process Group ID: 14820
+2026-04-06 16:22:50,415 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:22:50,415 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:22:50,431 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:22:50,433 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184

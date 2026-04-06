@@ -93,10 +93,10 @@ pip install -r requirements.txt
 If you want to use backend features (like saving vCards server-side), start the Flask server:
 
 ```bash
-python main.py
+python app.py
 ```
 
-The server will start, usually at `http://127.0.0.1:5000/`.
+The server will start, usually at `http://127.0.0.1:8000/`.
 
 ### 5. Open the App in Your Browser
 
@@ -126,7 +126,7 @@ You can use the app in two ways:
    git clone https://github.com/biko2020/vCard.git
    ```
 
-2. Open `index.html` in your web browser or run the Flask server with `python main.py` for backend features (if required).
+2. Open `index.html` in your web browser or run the Flask server with `python main.py` (or `python app.py`) for backend features (if required). If you run the server, access the app at `http://127.0.0.1:8000/`.
 
 ## How to Use
 
