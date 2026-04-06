@@ -99,9 +99,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open-source. Please check the LICENSE file for details.
 
-## Contact
+## 👤 Author
 
-For any inquiries, please open an issue in the GitHub repository.
+**Brahim Ait Oufkir**
+*Data Engineer · Big Data Developer · Full Stack Developer*
+
+[![Email](https://img.shields.io/badge/Email-aitoufkirbrahimab%40gmail.com-red?logo=gmail)](mailto:aitoufkirbrahimab@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-brahim--ait--oufkir-blue?logo=linkedin)](https://linkedin.com/in/brahim-ait-oufkir)
+[![GitHub](https://img.shields.io/badge/GitHub-biko2020-black?logo=github)](https://github.com/biko2020)
 
 ---
 
