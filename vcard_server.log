@@ -3829,3 +3829,46 @@
 2026-04-06 16:22:50,415 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
 2026-04-06 16:22:50,431 - WARNING - [_internal.py:97] -  * Debugger is active!
 2026-04-06 16:22:50,433 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:23:37,558 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:23:37,558 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:23:37,558 - INFO - [app.py:33] - Process ID: 1516
+2026-04-06 16:23:37,558 - INFO - [app.py:34] - Process Group ID: 1516
+2026-04-06 16:23:37,560 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:23:37,602 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:23:37,676 - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.2.14:8000
+2026-04-06 16:23:37,676 - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2026-04-06 16:23:37,678 - INFO - [_internal.py:97] -  * Restarting with stat
+2026-04-06 16:23:37,955 - INFO - [app.py:31] - Current User: Me
+2026-04-06 16:23:37,955 - INFO - [app.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:23:37,955 - INFO - [app.py:33] - Process ID: 16668
+2026-04-06 16:23:37,955 - INFO - [app.py:34] - Process Group ID: 16668
+2026-04-06 16:23:37,956 - INFO - [app.py:48] - Attempting to create vCard storage directory: C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:23:37,957 - INFO - [app.py:56] - Successfully set permissions on C:\Users\Me\Documents\vCard\vcards
+2026-04-06 16:23:37,972 - WARNING - [_internal.py:97] -  * Debugger is active!
+2026-04-06 16:23:37,974 - INFO - [_internal.py:97] -  * Debugger PIN: 254-445-184
+2026-04-06 16:26:05,094 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET / HTTP/1.1" 200 -
+2026-04-06 16:26:05,146 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET /assets/images/default-pic.png HTTP/1.1" 200 -
+2026-04-06 16:26:05,183 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET /assets/css/styles.css HTTP/1.1" 200 -
+2026-04-06 16:26:05,310 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET /assets/js/category-select.js HTTP/1.1" 200 -
+2026-04-06 16:26:05,311 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET /assets/js/image-upload.js HTTP/1.1" 200 -
+2026-04-06 16:26:05,452 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "GET /assets/js/QRcode.js HTTP/1.1" 200 -
+2026-04-06 16:26:05,464 - ERROR - [app.py:218] - Error serving static file favicon.ico: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-06 16:26:05,464 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-06 16:26:18,071 - INFO - [app.py:166] - Attempting to save vCard to: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:26:18,071 - INFO - [app.py:174] - Successfully saved vCard: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:26:18,072 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:18] "POST /generate_vcard HTTP/1.1" 200 -
+2026-04-06 16:26:47,753 - INFO - [app.py:166] - Attempting to save vCard to: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:26:47,753 - INFO - [app.py:174] - Successfully saved vCard: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:26:47,754 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:26:47] "POST /generate_vcard HTTP/1.1" 200 -
+2026-04-06 16:27:07,947 - INFO - [app.py:95] - Uploaded file name: Capture d'écran 2026-03-30 145139.png
+2026-04-06 16:27:07,947 - INFO - [app.py:96] - Uploaded file size: 3186 bytes
+2026-04-06 16:27:07,947 - INFO - [app.py:166] - Attempting to save vCard to: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:27:07,948 - INFO - [app.py:174] - Successfully saved vCard: C:\Users\Me\Documents\vCard\vcards\QnJhaGltIEFpdG91.vcf
+2026-04-06 16:27:07,948 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:27:07] "POST /generate_vcard HTTP/1.1" 200 -
+2026-04-06 16:27:14,115 - INFO - [app.py:202] - Attempting to serve vCard webpage for: QnJhaGltIEFpdG91.vcf
+2026-04-06 16:27:14,211 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:27:14] "GET /vcards/QnJhaGltIEFpdG91.vcf HTTP/1.1" 200 -
+2026-04-06 16:29:45,775 - INFO - [app.py:202] - Attempting to serve vCard webpage for: QnJhaGltIEFpdG91.vcf
+2026-04-06 16:29:45,778 - INFO - [_internal.py:97] - 127.0.0.1 - - [06/Apr/2026 16:29:45] "GET /vcards/QnJhaGltIEFpdG91.vcf HTTP/1.1" 200 -
