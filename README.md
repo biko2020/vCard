@@ -12,6 +12,8 @@ vCard Generator is a simple, interactive web application that allows users to cr
 - 📱 Responsive Mobile-like Interface
 - 🔗 Unique Reference Link Generation
 
+```
+```
 ## Project structure
 vCard/
 ├── accessible-from-machines/
@@ -30,7 +32,8 @@ vCard/
 │       └── QRcode.js
 └── vcards/
    └── QnJhaGltIEFpdG91.vcf
-
+```
+```
 ## Technologies Used
 
 ### Backend
