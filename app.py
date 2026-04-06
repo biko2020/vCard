@@ -29,7 +29,7 @@ logging.basicConfig(
 # Add system information logging
 logging.info(f"Current User: {os.getlogin()}")
 logging.info(f"Current Working Directory: {os.getcwd()}")
-logging.info(f"Process User ID: {os.getuid()}")
+logging.info(f"Process ID: {os.getpid()}")
 logging.info(f"Process Group ID: {os.getgid()}")
 
 # Get the absolute path of the project directory

@@ -3686,3 +3686,5 @@
 2025-02-05 18:47:24,223 - INFO - [_internal.py:224] - 127.0.0.1 - - [05/Feb/2025 18:47:24] "POST /generate_vcard HTTP/1.1" 200 -
 2025-02-05 18:47:26,809 - INFO - [app.py:201] - Attempting to serve vCard webpage for: QnJhaGltIEFpdG91.vcf
 2025-02-05 18:47:26,968 - INFO - [_internal.py:224] - 127.0.0.1 - - [05/Feb/2025 18:47:26] "GET /vcards/QnJhaGltIEFpdG91.vcf HTTP/1.1" 200 -
+2026-04-06 15:50:54,282 - INFO - [app.py:30] - Current User: Me
+2026-04-06 15:50:54,282 - INFO - [app.py:31] - Current Working Directory: C:\Users\Me\Documents\vCard
