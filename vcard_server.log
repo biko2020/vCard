@@ -3688,3 +3688,39 @@
 2025-02-05 18:47:26,968 - INFO - [_internal.py:224] - 127.0.0.1 - - [05/Feb/2025 18:47:26] "GET /vcards/QnJhaGltIEFpdG91.vcf HTTP/1.1" 200 -
 2026-04-06 15:50:54,282 - INFO - [app.py:30] - Current User: Me
 2026-04-06 15:50:54,282 - INFO - [app.py:31] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:55:59,065 - INFO - [app.py:30] - Current User: Me
+2026-04-06 15:55:59,066 - INFO - [app.py:31] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:55:59,066 - INFO - [app.py:32] - Process ID: 7464
+2026-04-06 15:56:51,037 - INFO - [app.py:30] - Current User: Me
+2026-04-06 15:56:51,038 - INFO - [app.py:31] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:56:51,038 - INFO - [app.py:32] - Process ID: 13496
+2026-04-06 15:56:51,038 - INFO - [app.py:33] - Process Group ID: 13496
+2026-04-06 15:58:57,750 - INFO - [main.py:31] - Current User: Me
+2026-04-06 15:58:57,751 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:58:57,751 - INFO - [main.py:33] - Process ID: 2976
+2026-04-06 15:58:57,751 - INFO - [main.py:34] - Process Group ID: 2976
+2026-04-06 15:59:12,319 - INFO - [main.py:31] - Current User: Me
+2026-04-06 15:59:12,319 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:59:12,319 - INFO - [main.py:33] - Process ID: 2548
+2026-04-06 15:59:12,319 - INFO - [main.py:34] - Process Group ID: 2548
+2026-04-06 15:59:39,466 - INFO - [main.py:31] - Current User: Me
+2026-04-06 15:59:39,467 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 15:59:39,467 - INFO - [main.py:33] - Process ID: 18456
+2026-04-06 15:59:39,467 - INFO - [main.py:34] - Process Group ID: 18456
+2026-04-06 16:02:17,056 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:02:17,056 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:02:17,056 - INFO - [main.py:33] - Process ID: 6068
+2026-04-06 16:02:17,056 - INFO - [main.py:34] - Process Group ID: 6068
+2026-04-06 16:02:54,656 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:02:54,656 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:02:54,657 - INFO - [main.py:33] - Process ID: 16664
+2026-04-06 16:02:54,657 - INFO - [main.py:34] - Process Group ID: 16664
+2026-04-06 16:05:11,741 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:05:11,741 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:05:11,741 - INFO - [main.py:33] - Process ID: 7340
+2026-04-06 16:05:11,741 - INFO - [main.py:34] - Process Group ID: 7340
+2026-04-06 16:08:22,483 - INFO - [main.py:31] - Current User: Me
+2026-04-06 16:08:22,484 - INFO - [main.py:32] - Current Working Directory: C:\Users\Me\Documents\vCard
+2026-04-06 16:08:22,484 - INFO - [main.py:33] - Process ID: 6264
+2026-04-06 16:08:22,484 - INFO - [main.py:34] - Process Group ID: 6264
+2026-04-06 16:08:22,485 - CRITICAL - [main.py:63] - FATAL: Could not create vcards directory: name 'PROJECT_ROOT' is not defined

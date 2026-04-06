@@ -1,3 +1,4 @@
+# This file has been removed after migrating its contents to main.py
 from flask import Flask, send_file, abort, request, jsonify, send_from_directory
 from flask_cors import CORS
 import base64
@@ -30,7 +31,7 @@ logging.basicConfig(
 logging.info(f"Current User: {os.getlogin()}")
 logging.info(f"Current Working Directory: {os.getcwd()}")
 logging.info(f"Process ID: {os.getpid()}")
-logging.info(f"Process Group ID: {os.getgid()}")
+logging.info(f"Process Group ID: {os.getpid()}")
 
 # Get the absolute path of the project directory
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))

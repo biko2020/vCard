@@ -12,8 +12,7 @@ vCard Generator is a simple, interactive web application that allows users to cr
 - 📱 Responsive Mobile-like Interface
 - 🔗 Unique Reference Link Generation
 
-```
-```
+
 ## Project structure
 vCard/
 ├── accessible-from-machines/
@@ -32,8 +31,6 @@ vCard/
 │       └── QRcode.js
 └── vcards/
    └── QnJhaGltIEFpdG91.vcf
-```
-```
 ## Technologies Used
 
 ### Backend
@@ -96,7 +93,7 @@ pip install -r requirements.txt
 If you want to use backend features (like saving vCards server-side), start the Flask server:
 
 ```bash
-python app.py
+python main.py
 ```
 
 The server will start, usually at `http://127.0.0.1:5000/`.
@@ -129,7 +126,7 @@ You can use the app in two ways:
    git clone https://github.com/biko2020/vCard.git
    ```
 
-2. Open `index.html` in your web browser or run the Flask server with `python app.py` for backend features (if required).
+2. Open `index.html` in your web browser or run the Flask server with `python main.py` for backend features (if required).
 
 ## How to Use
 
